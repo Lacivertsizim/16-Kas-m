@@ -1,0 +1,37 @@
+ *{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+} 
+
+footer {
+  display: flex;
+  align-items: center;
+  background-color: #e9a583;
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  display: flex;
+  justify-content: space-around;
+}
+
+footer div a {
+  font-size: 1.25rem;
+  text-decoration: none;
+  color: black;
+  padding: 5px;
+}
+
+footer > p {
+  font-family: "Sofia", cursive;
+}
+
+footer div a:hover {
+  color: #e8e3e4;
+}
+
+span {
+  font-family: fantasy;
+}
+

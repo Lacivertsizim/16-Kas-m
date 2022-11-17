@@ -1,0 +1,30 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    padding: 15px;
+    width: 100vw;
+    background-color: #403535;
+    height: 4rem;
+    font-size: 2rem;
+}
+nav p {
+    color: #d0bcb8;
+    font-size: 1.8rem;
+    font-family: 'Sofia', cursive;
+}
+
+nav > a {
+    text-decoration: none;
+    justify-content: space-around;
+    color: rgb(204, 150, 150);
+} 
+
+nav a:hover {
+    color: #E14D2A;
+}
